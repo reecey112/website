@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Greenisthenewblack</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+.padding {
+  padding-top: 540px;
+  padding-right: 960px;
+  padding-bottom: 540px;
+  padding-left: 960px;
+}
+
+	div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 500px;
+		background-color: #4CAF50;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+	color: black;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-green w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#parks" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PARKS</a>
+	<a href="#maps" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MAPS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="home" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="parks" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PARKS</a>
+	<a href="#maps" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MAPS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+
+
+</div>
+
+<!-- Page content -->
+
+
+  <!-- The Band Section -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+  <img src="images/waterfallnature.jpg" alt="image of waterfall in nature" style="max-width:800px"> 
+  <h1 class="w3-wide"><em><strong>Green is the new Black</strong></em></h1>
+<p>&nbsp;</p>
+  <h3 class="w3-opacity"><i>We love the environment</i></h3>
+<p class="w3-opacity">&nbsp;</p>
+  <h4 class="w3-center">I have created a website&nbsp; based on encouraging young people to go outside and explore nature and the environment, through parks and greenspaces in and around manchester.</h4>
+<p>&nbsp;</p>
+</div>
+
+  <!-- The Tour Section -->
+	<div class="w3-green w3-container w3-padding-64" id="parks">
+   <h1>Parks in and around Manchester</h1>
+		<div class="gallery">
+  <a target="_blank" href="images/bramhall-park2.png">
+    <img src="images/bramhall-park.jpg" alt="Bramhall Park" width="800" height="600">
+  </a>
+  <div class="desc">This is Bramhall park, it is owned by Stockport Metropolitan Borough Council. It was built around the end of the 14th century.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/bruntwood-park.jpg">
+    <img src="images/bruntwood-park.jpg" alt="Bruntwood Park" width="800" height="600">
+  </a>
+  <div class="desc">This is Bruntood park, it was built in 1861 as the home of stuff merchant John Douglas. it was named bruntwood after his wifes scottish roots. The park has long been open to the public and has many paths and open areas as well as beautiful mature trees. In all there are 120 acres of mature parkland. It includes a children's play area and a bike/BMX park. The Hall is now a hotel and the original Victorian conservatory had been converted to a restaurant.</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="images/chorlton-waterpark.jpg" alt="Chorlton Waterpark" width="800" height="600">
+  </a>
+  <div class="desc">This is Chorlton Water Park, it is a Local Nature Reserve and stands on the site of Barlow Hall Farm. During the construction of the M60 motorway in the 1970s gravel was excavated from the site. The gravel pit was subsequently flooded creating the lake that is central to the Water Park today.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/abney-hall.jpg">
+    <img src="images/abney-hall.jpg" alt="Abney hall" width="800" height="600">
+  </a>
+  <div class="desc">This is Abney Hall, which is a Victorian house surrounded by a park in Cheadle. It was built in 1847.</div>
+  </div>
+	
+	
+</div>
+	
+	
+	<div class="w3-container w3-green w3-padding-64" style="background-color:#4CAF50" id="map">
+  <h1 class="w3-wide"><em><strong>Park Maps</strong></em></h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.2776889848533!2d-2.1692018228055656!3d53.37408077229749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb34da8911f41%3A0x491a3ed1cd763eac!2sBramhall%20Park!5e0!3m2!1sen!2suk!4v1711105313829!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.933731799733!2d-2.217274222805255!3d53.380235172299166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb2d0f6341baf%3A0xe3bf10d22af0ba9e!2sBruntwood%20Park!5e0!3m2!1sen!2suk!4v1711105385108!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4755.073539871427!2d-2.276251810830887!3d53.42311020000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bad856c09092d%3A0xad959f428652bcc4!2sChorlton%20Water%20Park!5e0!3m2!1sen!2suk!4v1711105471962!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.8750070302053!2d-2.2141756228042873!3d53.399175772304616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb2e3bbb7ec61%3A0x361e177f8bb1ab8b!2sAbney%20Hall%20Park!5e0!3m2!1sen!2suk!4v1711105497425!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<p class="w3-opacity">&nbsp;</p>
+
+</div>
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <h2 class="w3-wide w3-center">You can leave a comment or message below</h2>
+	  <form>
+	<label for="email">Your email:</label><br>
+	<input type="text" id="email" name="email"><br>
+	  
+	<label for="message">Message:</label><br>
+	<textarea type="text" id="message" name="message" rows="7" cols="30"></textarea><br>
+	<br>
+	  
+	<input type="submit" value="Send">
+	<input type="reset" value="Clear">
+	  </form>
+  </div>
+	
+
+<!-- End Page Content -->
+	<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-orange w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity">&nbsp;</i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+
+</body>
+</html>
